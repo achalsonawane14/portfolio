@@ -1,0 +1,135 @@
+/* Ensure the body and html take full height and use flexbox */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Body styling */
+body {
+    background-color: rgb(21, 2, 39);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(55, 9, 99);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(203, 134, 239);
+    font-size: 1.1rem;
+}
+
+/* Main content styling */
+main {
+    flex: 1; /* Ensure main takes up available space */
+    padding-bottom: 100px; /* Space for footer */
+}
+
+main hr {
+    border: 0;
+    background: #d283ff;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstsection > div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.namecolour {
+    color: white;
+}
+
+.secondsection {
+    max-height: 80vh;
+    margin: auto;
+}
+
+/* Typed.js element color */
+#element {
+    color: #d79ff8;
+}
+
+/* Main heading styling */
+.mainheading {
+    background-color: rgb(55, 9, 99);
+    margin:50px 0px;
+    align-content: center;
+    text-align: center;
+    height: 80px;
+}
+
+/* Heading styling */
+.heading {
+    color: white;
+}
+
+/* Details list styling */
+.details {
+    color: rgb(246, 151, 246);
+}
+.third{
+display: flex;
+height: 100px;
+width:100%;
+background-color: gray;
+margin-top: 1560px;
+
+}
+.content{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    align-content: centre;
+    width: 100%;
+    
+}
+
